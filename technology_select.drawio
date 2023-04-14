@@ -1,9 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T06:30:30.650Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="9pTeIP9I6MP2pxANxcKG" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-14T10:05:32.862Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mtWwTkM-zHw3cyIW8bQj" version="21.1.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2455" dy="1380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-9" value="&lt;ol&gt;&lt;li&gt;订单支付重试&lt;/li&gt;&lt;li&gt;定时任务&lt;/li&gt;&lt;li&gt;延迟消息&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;rounded=1;strokeColor=#d6b656;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=#fff2cc;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="240" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Hrrx4LL96P_GPPSJvD_s-10" target="Hrrx4LL96P_GPPSJvD_s-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;rounded=1;strokeColor=#d6b656;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="552.5" width="70" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Hrrx4LL96P_GPPSJvD_s-11" target="Hrrx4LL96P_GPPSJvD_s-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-11" value="取消数据服务订阅" style="whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="790" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Hrrx4LL96P_GPPSJvD_s-14" target="Hrrx4LL96P_GPPSJvD_s-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-14" value="是否有下个月生效的套餐" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1090" y="480" width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Hrrx4LL96P_GPPSJvD_s-17" target="Hrrx4LL96P_GPPSJvD_s-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-17" value="取消下个月生效的自动续费" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1115" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Hrrx4LL96P_GPPSJvD_s-20" target="Hrrx4LL96P_GPPSJvD_s-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="Hrrx4LL96P_GPPSJvD_s-23">
+          <mxGeometry x="-0.2205" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=18;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Hrrx4LL96P_GPPSJvD_s-20" target="Hrrx4LL96P_GPPSJvD_s-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-28" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="Hrrx4LL96P_GPPSJvD_s-27">
+          <mxGeometry x="-0.538" y="-4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-20" value="信用卡" style="rhombus;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1335" y="750" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-22" value="取消信用卡订阅" style="whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1530" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hrrx4LL96P_GPPSJvD_s-26" value="余额直接修改" style="whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1327.5" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
