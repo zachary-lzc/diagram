@@ -1,9 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T11:59:13.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.1" etag="mgOMCRJwrm7TYhyednZh" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T12:09:02.143Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="PkbDLunqEpydzlk7Se_C" version="21.6.1" type="github">
   <diagram name="Page-1" id="aNWIws3YuNZw2xNMBV40">
-    <mxGraphModel>
+    <mxGraphModel dx="1188" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RENQ9lzbnDwQ04W_E6Rb-2" value="主板" style="swimlane;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="350" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="RENQ9lzbnDwQ04W_E6Rb-4" value="CPU" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="RENQ9lzbnDwQ04W_E6Rb-2">
+          <mxGeometry x="100" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RENQ9lzbnDwQ04W_E6Rb-5" value="硬盘存储" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="RENQ9lzbnDwQ04W_E6Rb-2">
+          <mxGeometry x="260" y="170" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RENQ9lzbnDwQ04W_E6Rb-6" value="内存条" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" vertex="1" parent="RENQ9lzbnDwQ04W_E6Rb-2">
+          <mxGeometry x="80" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RENQ9lzbnDwQ04W_E6Rb-7" value="显卡" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="RENQ9lzbnDwQ04W_E6Rb-2">
+          <mxGeometry x="80" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RENQ9lzbnDwQ04W_E6Rb-10" value="电源" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#FF66B3;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="290" y="420" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
