@@ -46,13 +46,6 @@
         <mxCell id="KtuCpL_ik2cwwJxUorNb-313" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="1446.5" y="6880" width="55" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-338" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.08;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-300" target="KtuCpL_ik2cwwJxUorNb-301">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1118" y="4929" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="KtuCpL_ik2cwwJxUorNb-339" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-301" target="KtuCpL_ik2cwwJxUorNb-302">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -161,7 +154,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KtuCpL_ik2cwwJxUorNb-357" value="" style="group;labelBackgroundColor=none;fontColor=#143642;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1350" y="3070" width="285" height="940" as="geometry" />
+          <mxGeometry x="1070" y="3240" width="285" height="940" as="geometry" />
         </mxCell>
         <mxCell id="KtuCpL_ik2cwwJxUorNb-277" value="箱子计算" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
           <mxGeometry x="22" y="550.9663865546219" width="243" height="389.0336134453782" as="geometry" />
@@ -385,6 +378,13 @@
             <Array as="points">
               <mxPoint x="1493" y="4553" />
               <mxPoint x="1493" y="4561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-338" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.08;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-300" target="KtuCpL_ik2cwwJxUorNb-301">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1118" y="4929" />
             </Array>
           </mxGeometry>
         </mxCell>
