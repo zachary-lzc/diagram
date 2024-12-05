@@ -1,391 +1,403 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="第 1 页" id="tLbl2kNh1v6Y95yXXDaV">
-    <mxGraphModel dx="3771" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2593" dy="1431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-275" value="重量调整" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="650" y="4880" width="1360" height="2140" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-362" value="重量调整" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="3390" width="910" height="1437" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-301" value="显示初始装箱结果" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1078.5" y="5163" width="188" height="49" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-363" value="初始装箱策略" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2362" width="663" height="2320" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-302" value="调整箱子重量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1110.5" y="5326" width="156" height="49" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-364" value="箱子计算" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1217" y="1918" width="243" height="394" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-303" value="查找重量小于12kg的箱子" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1186.5" y="5425" width="225" height="225" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-365" value="初始统计" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1196" y="1572" width="285" height="296" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-304" value="查找上一个箱子" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1134.5" y="5723" width="161" height="161" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-366" value="开始" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1311" y="1390" width="55" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-305" value="计算转移一件后&#xa;当前箱是否小于12kg" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="853.5" y="5981" width="257" height="257" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-367" value="加载JSON文件" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1258" y="1474" width="160" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-306" value="查找更前一个箱子" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="969.5" y="6310" width="188" height="49" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-368" value="初始统计计算" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1597" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-307" value="转移物品" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1207.5" y="6310" width="124" height="49" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-369" value="计算SKU总数和总重量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1231" y="1696" width="215" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-308" value="检查目标箱子重量" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1229.5" y="6409" width="177" height="177" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-370" value="显示SKU统计信息" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1247" y="1794" width="183" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-309" value="调整完成" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1317.5" y="6658" width="124" height="49" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-371" value="计算箱子数量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1943" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-310" value="无法调整" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1553.5" y="6473" width="124" height="49" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-372" value="计算列重量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1268" y="2041" width="140" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-311" value="报告无法处理" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1537.5" y="6658" width="156" height="49" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-373" value="计算20kg箱数量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1252" y="2140" width="173" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-312" value="显示最终结果" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1396.5" y="6781" width="156" height="49" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-374" value="计算15kg箱数量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1252" y="2238" width="173" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-313" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1446.5" y="6880" width="55" height="34" as="geometry" />
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-375" value="装箱过程" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1276" y="2387" width="124" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-339" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-301" target="KtuCpL_ik2cwwJxUorNb-302">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-376" value="按SKU总重量排序&#xa;(weight * quantity)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1212" y="2485" width="252" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-377" value="创建箱子列表&#xa;(20kg和15kg)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1209" y="2601" width="258" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-378" value="计算每个SKU在单箱最大数量&#xa;(quantity/5)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="2717" width="247" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-379" value="遍历每个箱子" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="2833" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-380" value="遍历排序后的SKU" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="2954" width="183" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-381" value="检查SKU&#xa;最大分配量&gt;0" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1069" y="3075" width="242" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-382" value="计算箱子剩余空间" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1016" y="3415" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-383" value="计算可添加数量&#xa;min(最大数量, 剩余空间/单件重量)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="985" y="3593" width="251" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-384" value="可添加数量&gt;0" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1026" y="3811" width="168" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-385" value="添加到箱子" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="4156" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-386" value="更新SKU剩余最大数量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1003" y="4381" width="215" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-387" value="继续处理下一个SKU" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="4544" width="199" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-388" value="处理下一个箱子" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1361" y="3172" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-389" value="装箱完成" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1006" y="2954" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-390" value="显示初始装箱结果" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="408" y="3172" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-391" value="调整箱子重量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="424" y="3415" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-392" value="查找重量小于12kg的箱子" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="389" y="3513" width="225" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-393" value="查找上一个箱子" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="336" y="3815" width="161" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-394" value="计算转移一件后&#xa;当前箱是否小于12kg" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="55" y="4052" width="257" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-395" value="查找更前一个箱子" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="171" y="4381" width="188" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-396" value="转移物品" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="409" y="4381" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-397" value="检查目标箱子重量" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="431" y="4480" width="177" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-398" value="调整完成" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="519" y="4754" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-399" value="无法调整" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="755" y="4544" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-400" value="报告无法处理" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="739" y="4754" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-401" value="显示最终结果" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="552" y="4877" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-402" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="603" y="4976" width="55" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-403" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-366" target="KtuCpL_ik2cwwJxUorNb-367">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-340" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-302" target="KtuCpL_ik2cwwJxUorNb-303">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-404" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-367" target="KtuCpL_ik2cwwJxUorNb-368">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-341" value="找到" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-303" target="KtuCpL_ik2cwwJxUorNb-304">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1214.5" y="5687" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-342" value="找到" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.73;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-304" target="KtuCpL_ik2cwwJxUorNb-305">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="981.5" y="5909" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-343" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.33;entryY=0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-305" target="KtuCpL_ik2cwwJxUorNb-306">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="981.5" y="6274" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-344" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=0.01;entryX=0.2;entryY=1;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-306" target="KtuCpL_ik2cwwJxUorNb-304">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1151.5" y="6274" />
-              <mxPoint x="1151.5" y="5909" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-345" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.79;entryX=0.5;entryY=0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-305" target="KtuCpL_ik2cwwJxUorNb-307">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1269.5" y="6274" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-346" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.29;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-307" target="KtuCpL_ik2cwwJxUorNb-308">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1269.5" y="6384" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-347" value="小于12kg" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=0;entryX=1;entryY=0.85;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-308" target="KtuCpL_ik2cwwJxUorNb-304">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1366.5" y="6384" />
-              <mxPoint x="1366.5" y="5909" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-348" value="大于等于12kg" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.3;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-308" target="KtuCpL_ik2cwwJxUorNb-309">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1317.5" y="6622" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-349" value="未找到更多箱子" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.63;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-304" target="KtuCpL_ik2cwwJxUorNb-310">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1615.5" y="5909" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-350" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-310" target="KtuCpL_ik2cwwJxUorNb-311">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-405" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-368" target="KtuCpL_ik2cwwJxUorNb-369">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-351" value="未找到" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.94;entryX=0.79;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-303" target="KtuCpL_ik2cwwJxUorNb-309">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1468.5" y="5687" />
-              <mxPoint x="1468.5" y="6622" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-352" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.2;entryY=0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-309" target="KtuCpL_ik2cwwJxUorNb-312">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1379.5" y="6756" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-353" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.94;entryY=0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-311" target="KtuCpL_ik2cwwJxUorNb-312">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1615.5" y="6756" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-354" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.51;entryY=-0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-312" target="KtuCpL_ik2cwwJxUorNb-313">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-406" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-369" target="KtuCpL_ik2cwwJxUorNb-370">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-357" value="" style="group;labelBackgroundColor=none;fontColor=#143642;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1070" y="3240" width="285" height="940" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-277" value="箱子计算" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
-          <mxGeometry x="22" y="550.9663865546219" width="243" height="389.0336134453782" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-278" value="初始统计" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
-          <mxGeometry y="209.32773109243698" width="285" height="292.26890756302527" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-279" value="开始" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
-          <mxGeometry x="101" width="80" height="59.2436974789916" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-280" value="加载JSON文件" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
-          <mxGeometry x="63" y="112.56302521008404" width="160" height="48.38235294117647" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-281" value="初始统计计算" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
-          <mxGeometry x="65" y="234.01260504201684" width="156" height="48.38235294117647" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-282" value="计算SKU总数和总重量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
-          <mxGeometry x="35" y="331.7647058823529" width="215" height="48.38235294117647" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-283" value="显示SKU统计信息" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
-          <mxGeometry x="51" y="428.5294117647059" width="183" height="48.38235294117647" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-284" value="计算箱子数量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
-          <mxGeometry x="65" y="575.6512605042018" width="156" height="48.38235294117647" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-285" value="计算列重量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
-          <mxGeometry x="73" y="672.4159663865546" width="140" height="48.38235294117647" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-286" value="计算20kg箱数量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
-          <mxGeometry x="57" y="770.1680672268908" width="173" height="48.38235294117647" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-287" value="计算15kg箱数量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-357">
-          <mxGeometry x="57" y="866.9327731092438" width="173" height="48.38235294117647" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-314" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-357" source="KtuCpL_ik2cwwJxUorNb-279" target="KtuCpL_ik2cwwJxUorNb-280">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-407" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-370" target="KtuCpL_ik2cwwJxUorNb-371">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-315" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-357" source="KtuCpL_ik2cwwJxUorNb-280" target="KtuCpL_ik2cwwJxUorNb-281">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-408" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-371" target="KtuCpL_ik2cwwJxUorNb-372">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-316" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-357" source="KtuCpL_ik2cwwJxUorNb-281" target="KtuCpL_ik2cwwJxUorNb-282">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-409" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-372" target="KtuCpL_ik2cwwJxUorNb-373">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-317" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-357" source="KtuCpL_ik2cwwJxUorNb-282" target="KtuCpL_ik2cwwJxUorNb-283">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-410" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-373" target="KtuCpL_ik2cwwJxUorNb-374">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-318" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-357" source="KtuCpL_ik2cwwJxUorNb-283" target="KtuCpL_ik2cwwJxUorNb-284">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-411" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-374" target="KtuCpL_ik2cwwJxUorNb-375">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-319" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-357" source="KtuCpL_ik2cwwJxUorNb-284" target="KtuCpL_ik2cwwJxUorNb-285">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-412" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-375" target="KtuCpL_ik2cwwJxUorNb-376">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-320" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-357" source="KtuCpL_ik2cwwJxUorNb-285" target="KtuCpL_ik2cwwJxUorNb-286">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-413" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-376" target="KtuCpL_ik2cwwJxUorNb-377">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-321" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-357" source="KtuCpL_ik2cwwJxUorNb-286" target="KtuCpL_ik2cwwJxUorNb-287">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-414" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-377" target="KtuCpL_ik2cwwJxUorNb-378">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-358" value="" style="group;labelBackgroundColor=none;fontColor=#143642;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1980" y="3870" width="990" height="1722" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-276" value="初始装箱策略" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;container=1;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="110" y="-20" width="990" height="1722" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-288" value="装箱过程" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="464.5" y="190" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-289" value="按SKU总重量排序&#xa;(weight * quantity)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="400.5" y="288" width="252" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-290" value="创建箱子列表&#xa;(20kg和15kg)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="397.5" y="404" width="258" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-291" value="计算每个SKU在单箱最大数量&#xa;(quantity/5)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="402.5" y="520" width="247" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-292" value="遍历每个箱子" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="448.5" y="636" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-293" value="遍历排序后的SKU" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="473.5" y="757" width="183" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-294" value="检查箱子剩余空间" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="324.5" y="878" width="177" height="177" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-295" value="计算可添加数量&#xa;min(最大数量, 剩余空间/单件重量)" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="259.5" y="1152" width="251" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-296" value="添加到箱子" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="314.5" y="1357" width="140" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-297" value="更新SKU剩余最大数量" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="606.5" y="1563" width="215" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-298" value="处理下一个SKU" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="637.5" y="1161" width="167" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-299" value="处理下一个箱子" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="574.5" y="1006" width="172" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-300" value="装箱完成" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="KtuCpL_ik2cwwJxUorNb-358">
-          <mxGeometry x="280.5" y="757" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-323" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-288" target="KtuCpL_ik2cwwJxUorNb-289">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-415" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-378" target="KtuCpL_ik2cwwJxUorNb-379">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-324" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-289" target="KtuCpL_ik2cwwJxUorNb-290">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-325" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-290" target="KtuCpL_ik2cwwJxUorNb-291">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-326" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-291" target="KtuCpL_ik2cwwJxUorNb-292">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-327" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.6;exitY=1;entryX=0.5;entryY=0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-292" target="KtuCpL_ik2cwwJxUorNb-293">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-416" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-379" target="KtuCpL_ik2cwwJxUorNb-380">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="565.5" y="721" />
+              <mxPoint x="1336" y="2918" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-328" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.17;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-293" target="KtuCpL_ik2cwwJxUorNb-294">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-417" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-380" target="KtuCpL_ik2cwwJxUorNb-381">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="412.5" y="842" />
+              <mxPoint x="1190" y="3039" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-329" value="足够" style="curved=1;startArrow=none;endArrow=block;exitX=0.39;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-294" target="KtuCpL_ik2cwwJxUorNb-295">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-418" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-381" target="KtuCpL_ik2cwwJxUorNb-382">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="384.5" y="1091" />
+              <mxPoint x="1110" y="3354" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-330" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-295" target="KtuCpL_ik2cwwJxUorNb-296">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-419" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-382" target="KtuCpL_ik2cwwJxUorNb-383">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-331" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.15;entryY=0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-296" target="KtuCpL_ik2cwwJxUorNb-297">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-420" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-383" target="KtuCpL_ik2cwwJxUorNb-384">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-421" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-384" target="KtuCpL_ik2cwwJxUorNb-385">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-422" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-385" target="KtuCpL_ik2cwwJxUorNb-386">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-423" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.24;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-386" target="KtuCpL_ik2cwwJxUorNb-387">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="384.5" y="1530" />
+              <mxPoint x="1110" y="4455" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-332" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=0.01;entryX=1;entryY=0.91;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-297" target="KtuCpL_ik2cwwJxUorNb-293">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-424" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0.52;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-381" target="KtuCpL_ik2cwwJxUorNb-387">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="840.5" y="1530" />
-              <mxPoint x="840.5" y="842" />
+              <mxPoint x="1362" y="3354" />
+              <mxPoint x="1362" y="4455" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-333" value="不足" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0.07;entryY=0;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-294" target="KtuCpL_ik2cwwJxUorNb-298">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-425" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.72;entryX=0.55;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-384" target="KtuCpL_ik2cwwJxUorNb-387">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="548.5" y="1091" />
-              <mxPoint x="548.5" y="1127" />
+              <mxPoint x="1392" y="4016" />
+              <mxPoint x="1392" y="4455" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-334" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0;entryX=0.95;entryY=1;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-298" target="KtuCpL_ik2cwwJxUorNb-293">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-426" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=1;entryY=0.96;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-387" target="KtuCpL_ik2cwwJxUorNb-380">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="770.5" y="1127" />
-              <mxPoint x="770.5" y="842" />
+              <mxPoint x="1581" y="4455" />
+              <mxPoint x="1581" y="3039" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-335" value="SKU遍历完成" style="curved=1;startArrow=none;endArrow=block;exitX=0.52;exitY=1;entryX=0.43;entryY=0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-293" target="KtuCpL_ik2cwwJxUorNb-299">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-427" value="所有SKU都遍历完" style="curved=1;startArrow=none;endArrow=block;exitX=0.56;exitY=1;entryX=0.43;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-380" target="KtuCpL_ik2cwwJxUorNb-388">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="573.5" y="842" />
+              <mxPoint x="1361" y="3039" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-336" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.57;exitY=0.01;entryX=0.95;entryY=1;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-299" target="KtuCpL_ik2cwwJxUorNb-292">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-428" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.56;exitY=0;entryX=0.95;entryY=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-388" target="KtuCpL_ik2cwwJxUorNb-379">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="700.5" y="842" />
-              <mxPoint x="700.5" y="721" />
+              <mxPoint x="1511" y="3039" />
+              <mxPoint x="1511" y="2918" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-337" value="箱子遍历完成" style="curved=1;startArrow=none;endArrow=block;exitX=0.03;exitY=1;entryX=0.5;entryY=0.01;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="KtuCpL_ik2cwwJxUorNb-358" source="KtuCpL_ik2cwwJxUorNb-292" target="KtuCpL_ik2cwwJxUorNb-300">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-429" value="所有箱子遍历完" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.86;entryX=0.5;entryY=0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-379" target="KtuCpL_ik2cwwJxUorNb-389">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="342.5" y="721" />
+              <mxPoint x="1068" y="2918" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-361" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-277" target="KtuCpL_ik2cwwJxUorNb-276">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-430" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.96;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-389" target="KtuCpL_ik2cwwJxUorNb-390">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1493" y="4553" />
-              <mxPoint x="1493" y="4561" />
+              <mxPoint x="1068" y="3039" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-338" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.08;rounded=0;fillColor=#FAE5C7;strokeColor=#A8201A;fontSize=17;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-300" target="KtuCpL_ik2cwwJxUorNb-301">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-431" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-390" target="KtuCpL_ik2cwwJxUorNb-391">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-432" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-391" target="KtuCpL_ik2cwwJxUorNb-392">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-433" value="找到" style="curved=1;startArrow=none;endArrow=block;exitX=0.21;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-392" target="KtuCpL_ik2cwwJxUorNb-393">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1118" y="4929" />
+              <mxPoint x="416" y="3775" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-434" value="找到" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.76;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-393" target="KtuCpL_ik2cwwJxUorNb-394">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="183" y="4016" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-435" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.33;entryY=0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-394" target="KtuCpL_ik2cwwJxUorNb-395">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="183" y="4345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-436" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.69;exitY=0.01;entryX=0.24;entryY=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-395" target="KtuCpL_ik2cwwJxUorNb-393">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="4345" />
+              <mxPoint x="353" y="4016" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-437" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.79;entryX=0.5;entryY=0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-394" target="KtuCpL_ik2cwwJxUorNb-396">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="471" y="4345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-438" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.29;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-396" target="KtuCpL_ik2cwwJxUorNb-397">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="471" y="4455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-439" value="小于12kg" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=0;entryX=1;entryY=0.9;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-397" target="KtuCpL_ik2cwwJxUorNb-393">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="568" y="4455" />
+              <mxPoint x="568" y="4016" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-440" value="大于等于12kg" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.3;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-397" target="KtuCpL_ik2cwwJxUorNb-398">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="519" y="4718" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-441" value="未找到更多箱子" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-393" target="KtuCpL_ik2cwwJxUorNb-399">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="817" y="4016" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-442" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-399" target="KtuCpL_ik2cwwJxUorNb-400">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-443" value="未找到" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0.79;entryY=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-392" target="KtuCpL_ik2cwwJxUorNb-398">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="3775" />
+              <mxPoint x="670" y="4718" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-444" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.35;entryY=0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-398" target="KtuCpL_ik2cwwJxUorNb-401">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="581" y="4852" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-445" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=1;entryY=0.08;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-400" target="KtuCpL_ik2cwwJxUorNb-401">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="817" y="4852" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-446" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=-0.01;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="KtuCpL_ik2cwwJxUorNb-401" target="KtuCpL_ik2cwwJxUorNb-402">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
