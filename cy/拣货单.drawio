@@ -19,7 +19,7 @@
         <mxCell id="KtuCpL_ik2cwwJxUorNb-304" value="查找上一个箱子" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="1134.5" y="5723" width="161" height="161" as="geometry" />
         </mxCell>
-        <mxCell id="KtuCpL_ik2cwwJxUorNb-305" value="计算转移一件后&#xa;供应箱是否小于12kg" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
+        <mxCell id="KtuCpL_ik2cwwJxUorNb-305" value="计算转移一件后&#xa;当前箱是否小于12kg" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="853.5" y="5981" width="257" height="257" as="geometry" />
         </mxCell>
         <mxCell id="KtuCpL_ik2cwwJxUorNb-306" value="查找更前一个箱子" style="whiteSpace=wrap;strokeWidth=2;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontSize=17;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
